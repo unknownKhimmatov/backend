@@ -23,4 +23,4 @@ const userSchema = new mongoose.Schema({
     timestamps: true
 })
 
-module.exports = mongoose.model("ForMT", userSchema)
+module.exports = mongoose.model("myschool", userSchema)
