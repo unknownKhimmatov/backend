@@ -7,9 +7,9 @@ const postUsers = async (req, res) => {
         const {
             lastName,
             firstName,
-            email,
             sinf,
-            daraja
+            davomat,
+            fatherName
         } = req.body;
 
         // information will save
@@ -18,9 +18,9 @@ const postUsers = async (req, res) => {
             const createUsers = new Users({
                 lastName,
                 firstName,
-                email,
                 sinf,
-                daraja
+                davomat,
+                 fatherName
             });
 
 
