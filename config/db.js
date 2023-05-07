@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const urlGloabalDB = "mongodb+srv://mt-academy:mt-academy@mt-academy.xger4dn.mongodb.net/?retryWrites=true&w=majority/test"
+const urlGloabalDB = "mongodb+srv://school:school2023@cluster0.jv6d7fe.mongodb.net/"
 
 
 const connect = async () => {
